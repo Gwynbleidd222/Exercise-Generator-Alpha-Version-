@@ -1,0 +1,17 @@
+.questionnaire {
+    
+    padding: 20px;
+    text-align: left;
+}
+
+.questionnaire label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.questionnaire select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

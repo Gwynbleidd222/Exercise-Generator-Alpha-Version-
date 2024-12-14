@@ -1,0 +1,37 @@
+.plan-generator-body {
+    text-align: left;
+    margin: 25px;
+}
+
+.plan-generator-body h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.plan-generator-body li {
+    padding: 5px;
+}
+
+.save-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #192121;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  /* transition: background-color 0.3s; */
+}
+
+.loading-spinner {
+    margin-right: 8px;
+}
+
+/* .save-button:hover {
+    background-color: #DEB887;
+  } */

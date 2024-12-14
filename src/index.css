@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.app-box {
+  max-width: 750px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 1px 0px 5px 1px #DEB887;
+}
+
+.app-title {
+  width: 100%;
+  background-color: #192121;
+  padding: 30px;
+  color: #ffff;
+}
+
+.select-group {
+  position: relative;
+  
+}
+
+.error-message {
+  position: absolute;
+  left: 220px;
+  top: 30%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  color: red;
+}
+
+.btn-generate {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #192121;
+  color: white;
+  width: 80%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: none;
+}
+
+.btn-generate:hover {
+  background-color: #DEB887;
+}
+
+.navbar {
+  background-color: #192121;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar-item {
+  font-size: 30px;
+}
+
+.navbar-item > a {
+  color: #C0C0C0;
+  transition: color 0.2s;
+}
+
+.navbar-item > a:hover {
+  color: #DEB887;
+}
+
+.saved-plans-container {
+  padding: 20px;
+}
+
+.saved-plans-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plans-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan-box {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 350px;
+}
+
+.plan-box h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #DEB887;
+  letter-spacing: 1px;
+}
+
+.text-box {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.container-scheme {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.container-scheme p {
+  padding: 10px;
+}
+
+.saved-workout-button {
+  background-color: #192121;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.saved-workout-button:hover {
+  background-color: #DEB887;
+}
+
+.modal-plan-content h3 {
+  text-align: center;
+  padding: 8px;
+}
+
+.modal-plan-content ol {
+  margin: 25px;
+}
+
+.modal-plan-content li {
+  padding: 5px;
+  text-align: left;
+}
+
+.no-plans-message {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .app-box {
+    margin: 30px auto;
+  }
+
+  .error-message {
+    left: 325px;
+  }
+}
